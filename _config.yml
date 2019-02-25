@@ -1,11 +1,11 @@
 # Site settings
-author: Alexandra Palermo
-title: 
+author: Alex Palermo
+title: My Flatiron School Blog
 header-img: img/home-bg.png
 email: alexmpalermo@gmail.com
-copyright_name: Alexandra Palermo
+copyright_name: Alex Palermo
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Projects
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  alexmpalermo
