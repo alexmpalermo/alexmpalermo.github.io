@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Javascript/Rails Project - Watering Can "
-date:       2019-06-27 21:03:52 +0000
+title:      "Javascript/Rails Project: Watering Can "
+date:       2019-06-27 17:03:53 -0400
 permalink:  javascript_rails_project_-_watering_can
 ---
 
