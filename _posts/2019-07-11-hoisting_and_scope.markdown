@@ -11,28 +11,32 @@ In JavaScipt there are 3 types of variables - var, let, and const. The differenc
 
 In this case: 
 
-```function helloFunc() {
-        let hello = "World!";
-        console.log(hello);
-   }
+```
+function helloFunc() {
+     let hello = "World!";
+     console.log(hello);
+}
 	 
-	 console.log(hello); // Uncaught ReferenceError: hello is not defined```
+console.log(hello); // Uncaught ReferenceError: hello is not defined
+```
 	 
-
 The scope of 'hello' is inside of the function, so if you tried to use it somewhere else it won't work. 
 
 Variables can also be block-scoped, meaning they only are available inside the block. Let/const are block-scoped but var is not. 
 
-```if (true) {
+```
+if (true) {
   var n = 42;
 }
  
 n;
-// => 42```
+// => 42
+```
 
 but...
 
-```if (true) {
+```
+if (true) {
   let x = 12;
 	const g = 10;
 }
@@ -41,7 +45,8 @@ x;
 // => Uncaught ReferenceError: x is not defined
 
 g;
-// => Uncaught ReferenceError: g is not defined```
+// => Uncaught ReferenceError: g is not defined
+```
 
 Variables without using the let,const, or var keywords are globally-scoped. This means they are accessible anywhere within the code. This example from Learn Co explains it very well.
 
